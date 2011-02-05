@@ -6,7 +6,6 @@
  */
 
 #import <Foundation/NSObject.h>
-#import "UIAlertViewDelegate.h"
 
 @class UIAlertView;
 
