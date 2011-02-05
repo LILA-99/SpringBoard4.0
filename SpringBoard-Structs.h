@@ -37,11 +37,6 @@ typedef struct {
 	unsigned _field1[8];
 } XXStruct_kUSYWB;
 
-typedef struct {
-	int _field1;
-	int _field2;
-} XXStruct_K5nmsA;
-
 
 
 
