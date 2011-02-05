@@ -44,13 +44,6 @@
 	TPBottomButtonBar* _cancelSyncBar;
 	UIPushButton* _infoButton;
 }
-@property(assign, nonatomic) int autocapitalizationType;
-@property(assign, nonatomic) int autocorrectionType;
-@property(assign, nonatomic) int keyboardType;
-@property(assign, nonatomic) int keyboardAppearance;
-@property(assign, nonatomic) int returnKeyType;
-@property(assign, nonatomic) BOOL enablesReturnKeyAutomatically;
-@property(assign, nonatomic, getter=isSecureTextEntry) BOOL secureTextEntry;
 +(id)newBottomBarForInstance:(id)instance;
 +(id)lockLabels:(BOOL)labels fontSize:(float*)size;
 -(void)_clearBlockedStatusUpdateTimer;
