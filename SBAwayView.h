@@ -6,7 +6,6 @@
  */
 
 #import "SpringBoard-Structs.h"
-#import "UIKeyInput.h"
 #import "SBSlidingAlertDisplay.h"
 
 @class SBAwayChargingView, SBAwaySwipeGestureRecognizer, NSTimer, SBAwayItemsView, NSDictionary, TPBottomButtonBar, SBAwayViewPluginController, SBAwayLockBar, MPAudioDeviceController, UIAlertView, UIPushButton, SBActivationView, SBAwayInCallController, SBAlertImageView, SBAwayDateView;
