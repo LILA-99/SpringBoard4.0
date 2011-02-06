@@ -28,7 +28,7 @@
 	id _processObserver;
 	SBProcessAssertion* _resumeProcessAssertion;
 	SBProcessAssertion* _suspendingProcessAssertion;
-	SBApplicationTimes* _times;
+		//	SBApplicationTimes* _times;
 	double _modificationDate;
 	NSString* _displayName;
 	NSMutableArray* _tags;
@@ -91,7 +91,7 @@
 	NSArray* _cachedLocalNotifications;
 	NSTimer* _terminateIfRunningTimer;
 	unsigned _cachedApplicationState;
-	opaque_pthread_mutex_t _appStateMutex;
+		//	opaque_pthread_mutex_t _appStateMutex;
 	NSDate* _nextApplicationWakeDate;
 	PCPersistentTimer* _applicationWakeTimer;
 	PCPersistentTimer* _localNotificationTimer;
@@ -162,7 +162,7 @@
 -(BOOL)isWidgetApplication;
 -(BOOL)isNowRecordingApplication;
 -(BOOL)isUserRatable;
--(void)validateSystemProvisioningEntitlements:(XXStruct_kUSYWB*)entitlements;
+	//-(void)validateSystemProvisioningEntitlements:(XXStruct_kUSYWB*)entitlements;
 -(id)customSpotlightIconPathsForKey:(id)key;
 -(id)snapshotsDirectory;
 -(void)flushSnapshotsForAllRoles:(BOOL)allRoles;
@@ -262,7 +262,7 @@
 -(id)signerIdentity;
 -(int)applicationSignatureState;
 -(BOOL)_signatureNeedsExplicitUserTrust;
--(BOOL)_doesProfileMatchSignerIdentity:(MISProfileRef)identity;
+	//-(BOOL)_doesProfileMatchSignerIdentity:(MISProfileRef)identity;
 -(id)_expirationDateForProvisioningProfile;
 -(void)markApplicationIdentityAsTrusted;
 -(BOOL)provisioningProfileValidated;
